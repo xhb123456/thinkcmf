@@ -18,7 +18,7 @@ class IndexController extends HomeBaseController
 
     {
 
-        return $this->fetch(':login');
+        return $this->fetch(':index');
     }
 
     public function login(){
